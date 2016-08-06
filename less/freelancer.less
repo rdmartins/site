@@ -30,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-green {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -40,7 +41,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-green:after {
     content: "\f005";
     font-family: FontAwesome;
     display: inline-block;
@@ -48,6 +50,15 @@ hr.star-primary:after {
     top: -0.8em;
     font-size: 2em;
     padding: 0 0.25em;
+}
+
+hr.star-green {
+	border-color: @theme-success;
+}
+
+hr.star-green:after {
+	background-color: darken(@theme-primary, 5%);
+	color: @theme-success;
 }
 
 hr.star-light {
@@ -217,6 +228,11 @@ section.success {
 	section.first {
 		padding-top: 75px;
 	}
+}
+
+#voztg {
+	background-color: darken(@theme-primary, 5%);
+	color: white;
 }
 
 #portfolio {
