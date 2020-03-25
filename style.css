@@ -1,0 +1,34 @@
+body,h1,h2,h3,p {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 300;
+}
+h1,h2 {
+  font-weight: 400;
+}
+html,body,.container {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 500%;
+}
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+@media (min-width: 992px) {
+  .container {
+    display: table;
+  }
+  .row {
+    height: 100%;
+    display: table-row;
+  }
+  .vc {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+  }
+}
