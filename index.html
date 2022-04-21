@@ -1,47 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,400">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="rdmartins" data-description="Obrigado pelo café!" data-color="#991915" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    <title>Rafael D Martins</title>
-  </head>
-  <body>
+  <title>Rafael D Martins</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-light sticky-top border-bottom">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 vc">
-          <img class="img-fluid" src="logo.png" alt="RDM">
-        </div>
-        <div class="col-lg-6 vc">
-          <div class="mb-12">
-            <h1>Rafael Delgado Martins</h1>
-            <h2>rdmartins</h2>
-            <h3>Bel em Ciência da Computação</h3>
-          </div>
-          <br />
-          <div class="mb-12">
-            <p>Analista Sênior Especialista MasterSAF e desenvolvedor, apaixonado por jogos e computação.</p>
-          </div>
-          <br />
-          <div class="mb-12">
-            <h3>rafael@delgadomartins.com</h3>
-          </div>
-          <div>
-            <a class="lab la-github align-middle" href="https://github.com/rdmartins/" target="_blank"></a>
-            <a class="lab la-linkedin align-middle" href="https://www.linkedin.com/in/rafael-delgado-martins/" target="_blank"></a>
-          </div>
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="RDM" height="24">
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#carreira">Carreira</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#email">E-mail</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-lg">
+    <div class="row justify-content-center my-5">
+      <div class="col">
+        <img src="me.jpg" class="rounded-circle img-thumbnail mx-auto d-none d-md-block w-50" alt="Eu">
+        <img src="me.jpg" class="rounded-circle img-thumbnail d-md-none" alt="Eu">
+      </div>
+      <div class="col cover">
+        <p class="mb-0 lead">Olá, sou</p>
+        <h1 class="text-primary mb-0"><strong>Rafael</strong> D Martins</h1>
+        <p>Sou apaixonado por computação.</p>
+        <p class="d-none d-sm-block">
+          Atuo como supervisor de tecnologia da informação em um time de suporte, desenvolvo aplicações e gerencio
+          servidores Windows e Linux.
+        </p>
+        <a class="link-dark text-decoration-none" href="https://github.com/rdmartins/" target="_blank">
+          <i class="fs-1 lab la-github"></i>
+        </a>
+        <a class="link-dark text-decoration-none" href="https://www.linkedin.com/in/rafael-delgado-martins/"
+          target="_blank">
+          <i class="fs-1 lab la-linkedin"></i>
+        </a>
+      </div>
+      <div class="row d-sm-none mt-3">
+        <div class="col">
+          <p>
+            Atuo como supervisor de tecnologia da informação em um time de suporte, desenvolvo aplicações e gerencio
+            servidores Windows e Linux.
+          </p>
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <div id="sobre" class="container-fluid bg-primary py-5">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-auto">
+          <h2><strong>Sobre mim</strong></h2>
+        </div>
+        <div class="col-lg">
+          <p>
+            A curiosidade de entender como as coisas funcionam sempre me acompanhou e computadores sempre foram muito
+            interessantes para mim. Quando tive meu primeiro contato com linguagens de programação, soube o que queria
+            fazer da vida. Cursei computação e até hoje estudo e aprendo como as tecnologias funcionam, com o mesmo
+            fascínio de antes.
+            <br />
+            Sou usuário adepto de <a href=" https://www.gentoo.org/" class="link-light">GNU/Linux</a> e tecnologias de
+            código aberto, <strong>entender e resolver problemas é minha maior motivação</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carreira" class="container-lg">
+    <div class="row justify-content-center py-5">
+      <div class="col-10">
+        <h2 class="fw-bold mb-4">Minha carreira</h2>
+        <ul class="timeline">
+          <li class="timeline-item mb-5">
+            <h5 class="fw-bold">Graduação</h5>
+            <p class="text-muted mb-2 fw-bold">2014</p>
+            <p class="text-muted">
+              Me torno <strong>Bacharel em Ciência da Computação</strong> e já começo a trabalhar desenvolvendo e
+              suportando um ERP. Utilizando ScriptCase, o foco é PHP e banco de dados Oracle.
+            </p>
+          </li>
+          <li class="timeline-item mb-5">
+            <h5 class="fw-bold">Desafios</h5>
+            <p class="text-muted mb-2 fw-bold">2015</p>
+            <p class="text-muted">
+              Aceito a oportunidade de liderar um time de desenvolvimento em uma startup. Durante esse desafio,
+              aprendi
+              <strong>desenvolvimento mobile utilizando AngularJS e Cordova</strong>.
+            </p>
+          </li>
+          <li class="timeline-item mb-5">
+            <h5 class="fw-bold">Aperfeiçoamento</h5>
+            <p class="text-muted mb-2 fw-bold">2016</p>
+            <p class="text-muted">
+              Voltei a trabalhar como desenvolvedor, mas dessa vez full stack. Durante esse período <strong>criei
+                sites
+                completos, modelei bancos de dados e configurei servidores em nuvem</strong>. Aprendi a utilizar o
+              serviço AWS e gerenciar servidores GNU/Linux.
+            </p>
+          </li>
+          <li class="timeline-item mb-5">
+            <h5 class="fw-bold">Deloitte</h5>
+            <p class="text-muted mb-2 fw-bold">2017</p>
+            <p class="text-muted">
+              Fui convidado para trabalhar em uma das das <strong>maiores empresas de serviços profissionais do
+                mundo</strong>. Entrei para o time de suporte, onde mantive aplicações e servidores Windows e
+              GNU/Linux
+              utilizados por diversos clientes.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="email" class="container-fluid bg-dark py-3">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <a class="fw-light text-decoration-none text-muted"
+            href="mailto:rafael@delgadomartins.com">rafael@delgadomartins.com</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
